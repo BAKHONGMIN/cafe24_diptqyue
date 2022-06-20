@@ -1,0 +1,23 @@
+<div class="topArea__statelogon RW">
+    <!--@css(/css/module/layout/statelogoff.css)-->
+    <div module="Layout_statelogoff">
+        <button type="button" class="menu btnSearch eSearch"><!--@import(/svg/icon-search.html)--></button>
+        <a href="/myshop/wish_list.html" class="menu RW"><!--@import(/svg/icon-heart.html)--></a>
+        <a href="/order/basket.html"><!--@import(/svg/icon-bag.html)--><span class="count {$basket_count_display|display} {$basket_count_display_class}"><span class="{$basket_count_class}">{$basket_count}</span></span></a>
+        <a href="/member/login.html"><!--@import(/svg/icon-login.html)--></a>
+    </div>
+    <div module="Layout_stateLogon">
+        <button type="button" class="menu btnSearch eSearch"><!--@import(/svg/icon-search.html)--></button>
+        <a href="/myshop/index.html" class="menu RW"><!--@import(/svg/icon-user.html)--></a>
+        <a href="/myshop/wish_list.html" class="menu RW"><!--@import(/svg/icon-heart.html)--></a>
+        <a href="/order/basket.html"><!--@import(/svg/icon-bag.html)--><span class="count {$basket_count_display|display} {$basket_count_display_class}"><span class="{$basket_count_class}">{$basket_count}</span></span></a>
+        <a href="{$action_logout}"><!--@import(/svg/icon-logout.html)--></a>
+    </div>
+    
+</div>
+<div id="shop" class="RW">
+    <button onclick="showPopup();"><!--@import(/svg/icon-map.html)--> 매장 찾기</botton>
+</div>
+<script language="javascript">
+    function showPopup() { window.open("layout/basic/shop.html", "a", "width=850, height=450, left=100, top=50"); }
+</script>

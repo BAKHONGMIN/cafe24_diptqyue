@@ -1,0 +1,5 @@
+.topArea__statelogon { position:absolute; right:25px; top:20px; }
+.topArea__statelogon a { display:inline-block; margin-left:5px; font-family: Arial; font-size:12px; color:#1e1e1e; text-transform:uppercase; text-decoration:none; }
+.topArea__statelogon .count { display:inline-block; min-width:24px; margin: 0 0 0 6px; padding:3px 4px 3px; font-size:13px; text-align:center; border:1px solid #000; border-radius:20px; box-sizing:border-box; }
+#shop{position: absolute; top: 20px; left: 25px; height: 20px; line-height: 20px;}
+#shop a{line-height: 20px; font-size:14px; font-weight: bold;}

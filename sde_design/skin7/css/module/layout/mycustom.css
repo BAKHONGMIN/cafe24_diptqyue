@@ -1,0 +1,174 @@
+
+*{
+    font-family: 'Libre Bodoni', 'Nanum Gothic';
+    text-align: center;
+    font-weight: bold;
+}
+.text-center{
+    text-align: center !important;
+    margin: 0 0 15px !important;
+    line-height: 15px !important;
+}
+.icon__box span+span{
+    margin: 12px 5px 0 !important;
+}
+.cart{
+    width: 20px !important;
+}
+.word-space{
+    word-spacing: 1px !important;
+    text-align: center !important;
+}
+.p-6{
+    padding-top: 50px !important;
+}
+
+button{
+    font-family: 'Libre Bodoni', 'Nanum Gothic';
+    font-size: 13px;
+    font-weight: 600;
+}
+@media all and (max-width:1024px) {
+    #topBanner,#shop{
+        display: none;
+    }
+}
+@media all and (min-width:1025px) {
+  .btnNav{
+      display: none;
+  }
+}
+
+#topBanner{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+#topBanner>.fadein>a{
+    display: block;
+    font-size:12px;
+    font-weight:bold;
+}
+
+
+
+.shopname{
+    margin: 10px 10px;
+}
+
+.shopwrap {
+ position: relative;
+ width: 100%;
+ background: #fff;
+ color: #333;
+ font-size: 10px;
+
+}
+
+.grid {
+    list-style: none;
+    /* margin-left: -40px; */
+   }
+   
+   .gc {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: -.25em;
+    min-height: 1px;
+    padding-left: 40px;
+    vertical-align: top;
+   }
+   
+   .gc--1-of-3 {
+    width: 33.33333%;
+   }
+   
+   .gc--2-of-3 {
+    width: 66.66666%;
+   }
+   
+   .naccs {
+    position: relative;
+    max-width: 900px;
+    margin: 20px auto 20px;
+    padding: 10px 10px;
+    border: 2px solid #333;
+    border-radius: 20px;
+   }
+   .naccs .menu{
+       overflow: scroll;
+       height: 332px;
+       overflow-x:hidden; 
+       overflow-y:auto; 
+   }
+
+   .naccs .menu div {
+    padding: 15px 20px 15px 40px;
+    margin-bottom: 10px;
+    color: #333;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+    vertical-align: middle;
+    font-weight: 700;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+   }
+   
+   .naccs .menu div:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+   
+   .naccs .menu div span.light {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 24px;
+    left: 15px;
+    background-color: #fff;
+    border-radius: 100%;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+   }
+   
+   .naccs .menu div.active span.light {
+    background-color: #333;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    top: 0;
+    border-radius: 0;
+   }
+   
+   .naccs .menu div.active {
+    color: #333;
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(155, 153, 153);
+   }
+   
+   ul.nacc {
+    position: relative;
+    height: 0px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transition: .5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+   }
+   
+   ul.nacc li {
+    opacity: 0;
+    transform: translateX(50px);
+    position: absolute;
+    list-style: none;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+   }
+   
+   ul.nacc li.active {
+    transition-delay: .3s;
+    z-index: 2;
+    opacity: 1;
+    transform: translateX(0px);
+   }
+   
+   ul.nacc li p {
+    margin: 0;
+   }
